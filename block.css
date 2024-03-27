@@ -1,0 +1,146 @@
+
+/* Первый Блок */
+
+.conteiner{
+    /* box-shadow: 0 0 4px red; */
+    display: flex;
+    padding: 1%;
+    justify-content: center;
+}
+
+.block_1 p{
+    font-family: "Papyrus Pixel";
+    color: rgb(250, 250, 250);
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+    font-size: 40px;
+    text-indent: 25px;
+    padding: 15px;
+}
+
+.block_1{
+    width: 1200px;
+    max-width: 100%;
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+    background-color: rgba(250, 250, 250, 0.301);
+    opacity: 1;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+
+.block_1 img{
+    width: 300px;
+    max-width: 40%;
+}
+
+/* Второй Блок */
+
+.block_2{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* box-shadow: 0 0 4px red; */
+}
+
+.items{
+    /* box-shadow: 0 0 4px red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.items img{
+    /* box-shadow: 0 0 4px red; */
+    border-radius: 10px 100px / 120px;
+    box-shadow: 10px 5px rgb(79, 79, 90);
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.genre{
+    margin: 0 auto;
+
+}
+
+.genre h2{
+    font-family: "Papyrus Pixel";
+    color: rgb(250, 250, 250);
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+    font-size: 80px;
+}
+
+.item_1, .item_2, .item_3,.item_4{
+    /* box-shadow: 0 0 4px red; */
+    width: 550px;
+    max-width: 100%;
+    height: 50%;
+    max-height: 300px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.Roguelike, .Horror, .Shooter, .Survival{
+    position: absolute;
+    font-family: "Papyrus Pixel";
+    color: rgb(250, 250, 250);
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+    font-size: 40px;
+    align-self: flex-end;
+}
+
+.Roguelike:hover, .Horror:hover, .Shooter:hover, .Survival:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+.items2{
+    /* box-shadow: 0 0 4px red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.items2 img{
+    border-radius: 10px 100px / 120px;
+    box-shadow: 10px 5px rgb(79, 79, 90);
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+}

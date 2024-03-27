@@ -1,0 +1,52 @@
+@media (max-width: 750px) {
+    header {
+      flex-direction: column;
+    }
+
+    .menu_tools a{
+      font-size: 13px;
+    }
+
+    .logo h1 {
+      font-size: 70px;
+    }
+
+    .menu_tools{
+      margin-left: -10px;
+    }
+
+    .block_1 p{
+      font-size: 25px;
+    }
+
+    .Roguelike, .Horror, .Shooter, .Survival{
+      font-size: 30px;
+    }
+    /* .items, .items2{
+      flex-direction: column;
+    } */
+  }
+
+  @media (max-width: 1040px){
+ 
+  }
+
+  @media (max-width: 500px){
+    .Roguelike, .Horror, .Shooter, .Survival{
+      font-size: 30px;
+    }
+  }
+
+  @media (max-width: 650px){
+    .Roguelike, .Horror, .Shooter, .Survival{
+      font-size: 15px;
+     
+    } 
+    .items, .items2{
+      flex-direction: column;
+    }
+
+    .item_1, .item_2, .item_3,.item_4{
+      width: 260px;
+    }
+  }
