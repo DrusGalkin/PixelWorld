@@ -1,0 +1,40 @@
+  /* вход */
+
+  @media (max-width: 650px){
+    .form{
+      max-width: 135px;
+    }
+
+    .reg{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .reg_text_a{
+      margin-top: 8px;
+    }
+
+    .form_input{
+      padding-bottom: 0px;
+      border-bottom: 1px solid rgb(71, 71, 71);
+      height: 10px;
+  }
+
+  .form_title{
+      font-size: 30px;
+  }
+
+  .form_label{
+      font-size: 13px;
+  }
+
+  .form{
+      border: 2mm ridge rgba(8, 8, 8, 0.712);
+      max-width: 187px
+  }
+  
+  .form_button{
+      font-size: 15px;
+      padding: 5px 10px;
+  }
+  }

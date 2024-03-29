@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style_reg.css">
+    <link rel="stylesheet" href="adaptation_reg.css">
+</head>
+<body>
+
+    <form class="form">
+            
+        <h1 class="form_title">Регистрация</h1>
+
+            <div class="form_group">
+                <label class="form_label">Логин</label>
+                <input type="text" class="form_input" maxlength="12" pattern="^[a-zA-Z]+$" required>
+            </div>
+
+            <div class="form_group">
+                <label class="form_label">Эл. Почта</label>
+                <input type="email" class="form_input" maxlength="20" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+            </div>
+
+            <div class="form_group">
+                <label class="form_label">Пароль</label>
+                <input type="password" class="form_input" maxlength="10" pattern="^[a-zA-Z]+$" required>
+            </div>
+
+            <div class="form_group">
+                <label class="form_label">Повторите Пароль</label>
+                <input type="password" class="form_input" maxlength="10" pattern="^[a-zA-Z]+$" required>
+            </div>
+
+        <div class="reg">
+                <div class="button_reg">
+                    <button class="form_button">Отправить</button> 
+                </div>
+            </div>
+    </form>
+    
+</body>
+</html>

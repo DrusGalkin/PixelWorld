@@ -120,12 +120,18 @@
     -1px 1px 0 #000,
     1px 1px 5px #000;
     font-size: 40px;
-    align-self: flex-end;
+    align-self: flex-end;  
 }
 
-.Roguelike:hover, .Horror:hover, .Shooter:hover, .Survival:hover{
+.Roguelike a, .Horror a, .Shooter a, .Survival a{
+    text-decoration: none;
+    color: rgb(250, 250, 250); 
+}
+
+.Roguelike a:hover, .Horror a:hover, .Shooter a:hover, .Survival a:hover{
     color: yellow;
     cursor: pointer;
+
 }
 
 .items2{

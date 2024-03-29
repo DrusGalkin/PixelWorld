@@ -1,0 +1,157 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+@font-face {
+	font-family: 'Papyrus Pixel'; 
+	src: url(../fonts/papyrus-pixel.ttf); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: rgb(71, 71, 71);
+}
+
+.form{
+    width: 100%;
+    max-width: 300px;
+    padding: 32px;
+    margin: 32px;
+    border: 4mm ridge rgba(8, 8, 8, 0.712);
+    box-shadow: 0 4px 16px black;
+    background-color: rgb(187, 187, 187);
+    font-family: 'Papyrus Pixel';
+    letter-spacing: 1px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_input,
+.form_button{
+    font-family: 'Papyrus Pixel';
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.form_title{
+    text-align: center;
+    color: rgb(255, 255, 0);
+    margin: 0 0 32px 0;
+    font-size: 50px;
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+}
+
+.form_group{
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.form_label{
+    color: rgb(71, 71, 71);
+}
+
+.form_input{
+    color: yellow;
+    width: 100%;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(71, 71, 71);
+    background-color: transparent;
+    outline: none;
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+    text-align: center;
+    font-size: 20px;
+}
+
+.form_input:focus{
+    border-bottom: 2px solid yellow;
+}
+
+.form_button{
+    padding: 10px 20px;
+    border-bottom: 2px solid rgb(71, 71, 71);
+    outline: none;
+    cursor: pointer;
+}
+
+.form_button:focus,
+.form_button:hover{
+    border-color: rgb(151, 151, 151);
+}
+
+.reg{
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* box-shadow: 0 0 3px yellow; */
+}
+
+.reg_text_a{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.a_reg a{
+    text-decoration: none;
+    color: white;
+    text-shadow:
+    2px 0 0 rgb(151, 151, 151),
+    -2px 0 0 rgb(151, 151, 151),
+    0 2px 0 rgb(151, 151, 151),
+    0 -2px 0 rgb(151, 151, 151),
+    1px 1px 0 rgb(151, 151, 151),
+    -1px -1px 0 rgb(151, 151, 151),
+    1px -1px 0 rgb(151, 151, 151),
+    -1px 1px 0 rgb(151, 151, 151),
+    1px 1px 5px rgb(151, 151, 151);    
+    cursor: pointer;
+}
+
+.a_reg :hover{
+    color: yellow;
+    text-shadow:
+    2px 0 0 #444444,
+    -2px 0 0 #444444,
+    0 2px 0 #444444,
+    0 -2px 0 #444444,
+    1px 1px 0 #444444,
+    -1px -1px 0 #444444,
+    1px -1px 0 #444444,
+    -1px 1px 0 #444444,
+    1px 1px 5px #444444;
+}

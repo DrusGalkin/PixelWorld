@@ -39,7 +39,7 @@
 
   @media (max-width: 650px){
     .Roguelike, .Horror, .Shooter, .Survival{
-      font-size: 15px;
+      font-size: 25px;
      
     } 
     .items, .items2{
@@ -50,3 +50,5 @@
       width: 260px;
     }
   }
+
+
