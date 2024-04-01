@@ -1,0 +1,99 @@
+.block_12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(250, 250, 250, 0.301);
+    box-shadow: 0 0 3px rgb(255, 255, 255);
+    margin-top: 5%;
+}
+
+.tovar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    /* background-color: rgba(250, 250, 250, 0.301); */
+    /* box-shadow: 0 0 3px red; */
+}
+
+.katalog_Roguelike{
+    font-size: 80px;
+    color: white;
+    font-family: 'Papyrus Pixel'; 
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+}
+
+.kartinka{
+    display: flex;
+}
+
+.kartinka img{
+    width: 100%;
+    max-width: 280px;
+    border-radius: 5%;
+    box-shadow: 3px 3px rgb(51, 51, 51);
+}
+
+.name_game{
+    font-size: 50px;
+}
+
+.name_game a{
+    text-decoration: none;
+    color: white;
+	font-family: 'Papyrus Pixel'; 
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+    padding-left: 10px;
+}
+
+.text_o_game{
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(250, 250, 250, 0.301);
+    box-shadow: 3px 3px rgb(51, 51, 51);
+}
+
+.opisanie_game p{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(252, 245, 245);
+    text-shadow: 1px 1px black;
+    
+}
+
+.prize{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.prize button{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    flex-direction: row-reverse;
+}

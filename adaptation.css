@@ -16,7 +16,7 @@
     }
 
     .block_1 p{
-      font-size: 25px;
+      font-size: 15px;
     }
 
     .Roguelike, .Horror, .Shooter, .Survival{
@@ -27,9 +27,7 @@
     } */
   }
 
-  @media (max-width: 1040px){
- 
-  }
+
 
   @media (max-width: 500px){
     .Roguelike, .Horror, .Shooter, .Survival{
@@ -50,5 +48,36 @@
       width: 260px;
     }
   }
+
+
+@media (max-width: 768px){
+
+  .kartinka img{
+    max-width: 235px;
+  }
+
+  .name_game {
+    font-size: 40px;
+  }
+  
+  .opisanie_game p{
+    font-size: 11px;
+  }
+  .prize button{
+    font-size: 11px;
+  }
+  
+}
+
+
+@media (max-width: 572px){
+  .opisanie_game p {
+  padding: 4px;
+  }
+
+  .name_game {
+    font-size: 30px;
+}
+}
 
 
