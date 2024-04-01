@@ -96,4 +96,5 @@
     padding: 8px 16px;
     font-size: 16px;
     flex-direction: row-reverse;
+    cursor: pointer;
 }
