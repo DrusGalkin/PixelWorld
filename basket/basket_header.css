@@ -1,0 +1,115 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2828;
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+	font-family: 'Papyrus Pixel'; 
+	src: url(../fonts/papyrus-pixel.ttf); 
+}
+  
+@font-face {
+	font-family: 'Papyrus'; 
+	src: url(../fonts/papyrus.ttf); 
+}
+
+header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_name_balance{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.logo h1{
+    font-family: 'Papyrus'; 
+    font-size: 200px;
+    color: rgb(255, 255, 255);
+    /* 
+    /*      */ 
+    text-shadow: 6px 10px #414141;
+}
+
+.name_balance{
+
+}
+
+.name{
+    display: flex;
+}
+
+.name a{
+    color: yellow;
+    font-family: 'Papyrus Pixel'; 
+    font-size: 50px;
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+    text-decoration: none;
+}
+
+.name h2{
+    font-family: 'Papyrus Pixel'; 
+    font-size: 50px;
+    color: white;
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+}
+
+.balance{
+    font-family: 'Papyrus Pixel'; 
+    font-size: 30px;
+    color: white;
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+}
+
+/* background-image: url(https://i.pinimg.com/originals/8a/d0/e2/8ad0e253164cdc44341fbd567e8c1f38.gif);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; */

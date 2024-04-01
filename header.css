@@ -16,6 +16,11 @@ body {
 	font-family: 'Papyrus Pixel'; 
 	src: url(fonts/papyrus-pixel.ttf); 
 }
+
+@font-face {
+	font-family: 'Papyrus'; 
+	src: url(fonts/papyrus.ttf); 
+}
   
 header{
     background-image: url(img/background.png);
@@ -33,12 +38,11 @@ header{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    
 }
 
 .logo h1{
     color: #f4f4f4;
-    font-family: "Papyrus Pixel";
+    font-family: "Papyrus";
     font-size: 80px;
     text-shadow:
     2px 0 0 #000,
