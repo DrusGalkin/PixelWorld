@@ -1,7 +1,3 @@
-html{
-    height: 100%;
-    width: 100%;
-}
 
 *{
     margin: 0;
@@ -27,55 +23,121 @@ body {
 	src: url(../fonts/papyrus.ttf); 
 }
 
-header{
+.logo{
     display: flex;
+}
+
+.logo img{
     width: 100%;
+    max-width: 100px;
+}
+
+.contur{
+    margin: 10px;
+}
+
+.baza{
+    width: 100%;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
-.logo_name_balance{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-}
-
 .logo h1{
-    font-family: 'Papyrus'; 
-    font-size: 200px;
-    color: rgb(255, 255, 255);
-    /* 
-    /*      */ 
-    text-shadow: 6px 10px #414141;
+    color: white;
+    font-family: 'Papyrus Pixel';
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+    font-size: 80px; 
+    position: relative;
+    top: 15px;
 }
 
-.name{
+
+.block{
+    width: 100%;
+    max-width: 773px;
+    box-shadow: 4px 3px rgb(56, 56, 56);
+    background-color: rgba(250, 250, 250, 0.301);
+    opacity: 1;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 25px;
+    flex-direction: row;
+}
+
+.logo2{
+    color: white;
+    font-family: 'Papyrus Pixel';
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+    font-size: 30px; 
+}
+
+.tovar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 430px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.katalog_Roguelike{
+    font-size: 80px;
+    color: white;
+    font-family: 'Papyrus Pixel'; 
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+}
+
+.kartinka{
     display: flex;
 }
 
-.name a{
-    color: yellow;
-    font-family: 'Papyrus Pixel'; 
+.kartinka img{
+    width: 100%;
+    max-width: 280px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 3px 3px rgb(51, 51, 51);
+}
+
+.name_game{
     font-size: 50px;
-    text-shadow:
-    2px 0 0 #000,
-    -2px 0 0 #000,
-    0 2px 0 #000,
-    0 -2px 0 #000,
-    1px 1px 0 #000,
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 5px #000;
+}
+
+.name_game a{
     text-decoration: none;
-}
-
-.name h2{
-    font-family: 'Papyrus Pixel'; 
-    font-size: 50px;
     color: white;
+	font-family: 'Papyrus Pixel'; 
     text-shadow:
     2px 0 0 #000,
     -2px 0 0 #000,
@@ -86,13 +148,70 @@ header{
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 5px #000;
+    padding-left: 10px;
 }
 
-.balance{
-    font-family: 'Papyrus Pixel'; 
-    font-size: 30px;
-    color: white;
-    text-shadow:
+.text_o_game{
+    width: 100%;
+    max-width: 280px;
+    background-color: rgba(250, 250, 250, 0.301);
+    box-shadow: 3px 3px rgb(51, 51, 51);
+}
+
+.opisanie_game p{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(252, 245, 245);
+    text-shadow: 1px 1px black;
+    
+}
+
+.prize{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.prize button{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+
+
+.rezdel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox{
+    margin: 7px;
+}
+
+.KNOPKA button{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    flex-direction: row-reverse;
+    cursor: pointer;
+}
+
+td{
+    /* font-family: 'Papyrus Pixel'; */
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    /* text-shadow:
     2px 0 0 #000,
     -2px 0 0 #000,
     0 2px 0 #000,
@@ -101,11 +220,20 @@ header{
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 5px #000;
+    1px 1px 5px #000;   */
+    padding-left: 10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-/* background-image: url(https://i.pinimg.com/originals/8a/d0/e2/8ad0e253164cdc44341fbd567e8c1f38.gif);
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover; */
+table{
+    background-color: #4676D7;
+    border-radius: 5px;
+}
+
+.KNOPKA{
+    align-self: flex-start;
+    margin: 20px;
+    width: 100%;
+    max-width: 155px;
+}

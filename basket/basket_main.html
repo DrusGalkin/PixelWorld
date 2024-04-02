@@ -6,30 +6,132 @@
     <title>Корзина</title>
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="basket_header.css">
+    <link rel="stylesheet" href="adantation_basket.css">   
+    <link rel="stylesheet" href="the_sale.js"> 
 </head>
 <body>
-    <header>
-
-        <div class="logo_name_balance">
-
-            <div class="logo">
-                <h1>PixelWorld</h1>
-            </div>
-
-            <div class="name_balance">
-
-            <div class="name">
-                <h2>Пользователь:</h2><a href="">DrusGalkin2005</a>
-            </div>
-
-            <div class="balance">
-                <h2>Баланс: 19$</h2>
-            </div>
-
-            </div>
-           
-
+    <div class="baza">
+        <div class="logo">
+            <img src="gif/Torch_Gif.gif" alt="Torch">
+                <h1>Корзина</h1>
+            <img src="gif/Torch_Gif.gif" alt="Torch">
         </div>
-    </header>
+    </div>
+        <div class="block">         
+            <div class="rezdel">
+                <div class="tovar">
+                <div class="giv">
+                        <div class="tovar">                 
+                          <div class="kartinka">
+                          <img src="../Для block_2/Survival/Terraria.jpg" alt="Terraria">
+                          </div>                 
+                          <div class="text_o_game">
+                          <div class="name_game">
+                            <a name="shoo">Terraria</a>
+                          </div>                
+                          <div class="prize">
+                            <table>
+                                <tr>
+                                   <td id="Price">499 руб</td>
+                                   <td><input type="checkbox" class="checkbox"></td>
+                                </tr>
+                               </table>
+                          </div>
+                        </div>
+                        </div>  
+                </div>                    
+             </div>
+            </div>
+            <br>
+            <br>
+            <div class="rezdel">
+                <div class="tovar">
+                <div class="giv">
+                        <div class="tovar">                 
+                          <div class="kartinka">
+                          <img src="../Для block_2/Noita.png" alt="Noita">
+                          </div>                 
+                          <div class="text_o_game">
+                          <div class="name_game">
+                            <a name="shoo">Noita</a>
+                          </div>
+                          <div class="prize">
+                            <table>
+                                <tr>
+                                   <td id="Price">300 руб</td>
+                                   <td><input type="checkbox" class="checkbox"></td>
+                                </tr>
+                               </table>
+                          </div>
+                        </div>
+                        </div>  
+                </div>
+             </div>           
+            </div>
+            <br>
+            <br>
+           <div class="rezdel">
+
+                <div class="tovar">
+                <div class="giv">
+                        <div class="tovar">
+                  
+                          <div class="kartinka">
+                          <img src="../Для block_2/Shooter/Broforce.jpg" alt="Broforce">
+                          </div>                 
+                          <div class="text_o_game">
+                          <div class="name_game">
+                            <a name="shoo">Broforce</a>
+                          </div>                                                     
+                          <div class="prize">
+                            <table>
+                             <tr>
+                                <td id="Price">435 руб</td>
+                                <td><input type="checkbox" class="checkbox"></td>
+                             </tr>
+                            </table>
+                            
+                          </div>
+                        </div>
+                        </div>  
+                </div>
+             </div>
+            </div>
+            <br>
+            <br>
+            <div class="KNOPKA">
+                <a href=""><button id="totalPriceBtn">Выбирете Товар</button></a>
+            </div>
+        </div>
+        <br>
+        <br>
+        
+        <script>
+            const checkboxes = document.querySelectorAll('.checkbox');
+            const totalPriceBtn = document.getElementById('totalPriceBtn');
+            let totalPrice = 0;
+            
+            checkboxes.forEach(checkbox => {
+              checkbox.addEventListener('change', () => {
+                const priceCell = checkbox.parentNode.previousElementSibling;
+                const price = parseInt(priceCell.innerText.replace(Price));
+                
+                if (checkbox.checked) {
+                  totalPrice += price;
+                } else {
+                  totalPrice -= price;
+                }
+
+                if(totalPrice == 0){
+                  totalPriceBtn.textContent = `Выбирете Товар`;
+                } else{
+                  totalPriceBtn.textContent = `К оплате - ${totalPrice.toFixed(0)} Руб`;
+                }
+                
+              });
+            });
+            </script>
+
+
 </body>
 </html>

@@ -1,0 +1,23 @@
+@media (max-width: 750px){
+    .block{
+        flex-direction: column;
+    }
+
+    .rezdel{
+        background-color: rgba(126, 126, 126, 0.603);
+    }
+
+    .tovar{
+        margin: 0 auto;
+        max-width: 211px;
+    }
+
+    .KNOPKA{
+        align-self: center;
+    }
+    .KNOPKA button{
+        font-size: 26px;
+    }
+    
+    
+}
