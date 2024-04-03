@@ -1,23 +1,12 @@
 @media (max-width: 750px){
-    .block{
-        flex-direction: column;
+    .kartinka img{
+        max-width: 161px;
     }
+}
 
-    .rezdel{
-        background-color: rgba(126, 126, 126, 0.603);
+@media (max-width: 400px){
+    .logo h1{
+        font-size: 50px;
+        top: 32px;
     }
-
-    .tovar{
-        margin: 0 auto;
-        max-width: 211px;
-    }
-
-    .KNOPKA{
-        align-self: center;
-    }
-    .KNOPKA button{
-        font-size: 26px;
-    }
-    
-    
 }
