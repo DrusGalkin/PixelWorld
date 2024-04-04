@@ -1,3 +1,7 @@
+html{
+    scroll-timeline: --full-page-scroll block;
+}
+
 
 /* Первый Блок */
 
@@ -36,6 +40,12 @@
     margin: 0 auto;
     margin-top: 3%;
     padding: 25px;
+    animation-timeline: --full-page-scroll;
+    animation: ani 2.5s forwards;
+}
+@keyframes ani {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
 }
 
 .block_1 img{
@@ -91,6 +101,7 @@
     -1px 1px 0 #000,
     1px 1px 5px #000;
     font-size: 80px;
+    animation: ani 2.5s forwards;
 }
 
 .item_1, .item_2, .item_3,.item_4{
@@ -103,7 +114,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
-    
+    animation: ani 2.5s forwards;
 }
 
 .Roguelike, .Horror, .Shooter, .Survival{

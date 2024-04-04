@@ -50,6 +50,10 @@ header{
   100% {opacity: 1;}
 }
 
+.logo a{
+    color: white;
+}
+
 .logo h1{
     color: #f4f4f4;
     font-family: "Papyrus";
