@@ -47,6 +47,8 @@ swiper-container{
     max-width: 445px;
     height: 100%;
     max-height: 445px;
+
+
 }
 
 swiper-container img{
@@ -172,7 +174,7 @@ swiper-container img{
 
 details{
     width: 100%;
-    max-width: 350px;
+    max-width: 283px;
     padding: 5px;
 }
 
