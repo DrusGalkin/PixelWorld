@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotline Miami </title>
+    <link rel="shortcut icon" href="../../../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../Roguelike/header.css">
+    <link rel="stylesheet" href="game_style.css">
+    <link rel="stylesheet" href="adaptation_game.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h1><a href="../../../index.html">PixelWorld</a></h1></div>
+          <div class="menu">
+              <div class="menu_tools">
+                <div class="tool_1"><div class="korzina"><svg style="color: white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z" fill="#f4f4f4"></path></svg></div>
+                <a href="../../../basket/basket_main.html" target="_blank">Корзина</a></div>
+                <div class="tool_3">
+                  <div class="vhod"><svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16"> <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" fill="white"></path> </svg></div>
+                  <a href="../../../login_or_reg/login_or_reg.html" target="_blank">Профиль</a></div>
+              </div>
+          </div>
+      </header>
+
+      <div class="main">
+
+      <div class="conteiner">
+         
+        <swiper-container>
+            <swiper-slide><img src="Hotline Miami.jpg" alt="Hotline Miami "></swiper-slide>
+            <swiper-slide><img src="gameplay1.gif" alt="game play"></swiper-slide>
+            <swiper-slide><img src="gameplay2.gif" alt=""></swiper-slide>
+        </swiper-container>
+        
+
+        <div class="text_prize_harakter">
+          <div class="name_prize">
+            <div class="name">
+                <h1>Hotline Miami </h1>
+            </div>
+
+            <!-- <div class="prize">
+                <h2>Repentance</h2>
+            </div>  -->
+            <div class="spiski">
+          <details>
+              <summary>Описание</summary>
+              <p>Hotline Miami (с англ. — «Горячая линия Майами») — компьютерная игра в жанре top-down shooter, которую разработала Dennaton Games и издала Devolver Digital. Действие игры разворачивается в Майами 1989 года и в основном вращается вокруг безымянного молчаливого главного героя, которого фанаты прозвали «Джекет»[a], получающего на свой автоответчик закодированные сообщения, приказывающие ему совершать вылазки с целью навредить местной русской мафии.</p>
+          </details>
+          <details >
+              <summary>Системные Требования</summary>
+              <p>ОС: Microsoft Windows XP, Vista или 7;
+                <br>
+                Процессор: с тактовой частотой 1,4 ГГц или лучше;
+                <br>
+                Оперативная память: 1 ГБ;
+                <br>
+                Видеокарта: с 32 МБ видеопамяти, совместимая с DirectX 8;
+                <br>
+                DirectX: 9.0c;
+                <br>
+                Жесткий диск: 250 МБ свободного места.</p><br>
+          </details>
+          </div>
+          </div>
+
+          <div class="spiski_i_chena">
+          <div class="chena">
+            <h2>350 руб</h2>
+          </div>
+
+            <div class="basket">
+              <button>Купить</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer>
+        <div class="DrusGalkin">
+          <h2>«Цифровой ветер 2024»</h2>
+          <h5>Drus Galkin б1-ИФСТ-12</h5>
+        </div>
+        <div class="tgg">
+          <h2><a href="https://t.me/andrew_company" target="_blank">Telegram</a></h2>
+        </div>
+    </footer>
+
+      <script>
+        const button = document.querySelector('button');
+        let clicked = false;
+        button.addEventListener('click', function() {
+          if(!clicked) {
+          button.style.backgroundColor = 'rgba(15, 223, 84, 0.781)';
+          button.textContent = 'В Корзине';
+          clicked = true;
+         } else {
+          button.style.backgroundColor = '';
+          button.textContent = 'Купить';
+          clicked = false;
+         }
+        });
+        </script>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+</html>

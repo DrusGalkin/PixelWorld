@@ -1,0 +1,51 @@
+@media screen and (max-width: 1200px) {
+    
+    .conteiner{
+        flex-direction: column;
+    }
+
+    swiper-container{
+        box-shadow: 0 0 5px rgb(126, 126, 126);
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    .name {
+       font-size: 36px;
+    }
+
+    .spiski{
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+        
+    /* .conteiner{
+        margin-top: 20px;
+    } */
+
+    swiper-container{
+        max-width: 330px;
+        max-height: 330px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .spiski {
+        font-size: 15px;
+    }
+
+    .chena {
+        font-size: 10px;
+    }
+
+    footer{
+        bottom:0;
+
+        left:0;
+    }
+
+  }
