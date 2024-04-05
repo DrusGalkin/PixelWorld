@@ -76,7 +76,10 @@
   }
 
   .name_game {
-    font-size: 30px;
+    font-size: 20px;
+}
+.opisanie_game p {
+  font-size: 8px;
 }
 }
 

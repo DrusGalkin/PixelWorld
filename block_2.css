@@ -1,3 +1,4 @@
+
 .block_12{
     display: flex;
     justify-content: center;
@@ -94,7 +95,8 @@
     border-radius: 5px;
     background: #4676D7;
     color: #fff;
-    padding: 8px 16px;
+    padding: 6px;
+    margin: 10px;
     font-size: 16px;
     flex-direction: row-reverse;
     cursor: pointer;

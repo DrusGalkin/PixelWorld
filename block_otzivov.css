@@ -1,0 +1,205 @@
+.ozivi{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text_otsivov h3{
+    font-family: 'Papyrus';
+    font-size: 80px;
+    color: white;
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+
+}
+
+.block_otzivov{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.otziv{
+    box-shadow: 4px 3px rgba(250, 235, 215, 0.582);
+    background-color: rgb(199, 194, 188);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.otz-1{
+    width: 100%;
+    background-color: rgb(231, 230, 230);
+    border-radius: 30px;
+    margin-top: 15px;
+}
+
+.user_img img{
+    width: 50px;
+}
+
+.user_name{
+    font-family: 'Papyrus Pixel';
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user_name img{
+    width: 100px;
+}
+
+.otz_text p{
+    padding: 20px;
+}
+
+.smotret_dalee a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Papyrus Pixel';
+    font-size: 42px;
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+}
+
+.smotret_dalee a:hover{
+    color: yellow;
+}
+
+.smotret_dalee{
+    margin-top: 20px;
+}
+
+.text_otsivov{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user textarea{
+    width: 100%;
+    max-width: 800px;
+    text-decoration: none;
+    border: 2px inset grey;
+}
+
+.okno{
+    position:fixed;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+     border: 2mm ridge rgba(78, 78, 78, 0.603);
+     background-color: rgb(194, 194, 194);
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+}
+
+.text_dialoga{
+    font-family: 'Papyrus Pixel';
+    color: yellow;
+    text-shadow:
+    2px 0 0 #000,
+    -2px 0 0 #000,
+    0 2px 0 #000,
+    0 -2px 0 #000,
+    1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 5px #000;
+}
+
+.text_dialoga h2{
+    font-size: 40px;
+}
+
+.text_dialoga button{
+    margin: 10px;
+    background-color: rgb(202, 202, 202);
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.otpravit{
+    margin: 10px;
+    background-color: rgb(202, 202, 202);
+    width: 100px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.otz-2{
+    width: 100%;
+    background-color: rgb(231, 230, 230);
+    border-radius: 30px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer{
+    width: 100%;
+    height: 100%;
+    max-height: 100px;
+    background-color: #36363628;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #5c5b5bbe;
+    font-family: 'Papyrus Pixel'; 
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffffbe;
+}
+
+footer a{
+    text-decoration: none;
+    color: #5c5b5bbe;
+}
+
+.tgg a:hover{
+    color: aqua;
+}
+

@@ -1,6 +1,10 @@
-@media (max-width: 750px){
-    .kartinka img{
-        max-width: 161px;
+@media (max-width: 340px){
+    .photo img {
+        width: 137px;
+    }
+
+    .info h2{
+        font-size: 40px;
     }
 }
 
@@ -8,5 +12,8 @@
     .logo h1{
         font-size: 50px;
         top: 32px;
+    }
+    #Price {
+        padding: 0px;
     }
 }
